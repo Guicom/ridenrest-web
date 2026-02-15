@@ -16,7 +16,7 @@ npm install
 npm run dev
 ```
 
-Ouvre [http://localhost:5173](http://localhost:5173) dans le navigateur.
+Ouvre [http://localhost:3000](http://localhost:3000) dans le navigateur.
 
 ## Scripts
 
