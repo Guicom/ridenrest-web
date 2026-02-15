@@ -17,7 +17,7 @@ export const Contact: React.FC = () => {
           Contact
         </h1>
         <p className="text-sage mb-12">
-          Une question, un partenariat ou besoin d'aide pour planifier vos nuitées à vélo ? Envoyez-nous un message.
+          Une question, un partenariat ou besoin d'aide pour planifier tes nuits à vélo ? Envoyez-nous un message.
         </p>
         <div className="bg-primary/10 border border-primary/30 text-primary rounded-xl p-8 text-center">
           <p className="font-semibold uppercase tracking-wider mb-2">Message envoyé</p>
@@ -35,7 +35,7 @@ export const Contact: React.FC = () => {
         Contact
       </h1>
       <p className="text-sage mb-12">
-        Une question, un partenariat ou besoin d'aide pour planifier vos nuitées à vélo ? Envoyez-nous un message.
+        Une question, un partenariat ou besoin d'aide pour planifier tes nuits à vélo ? Envoyez-nous un message.
       </p>
 
       <form onSubmit={handleSubmit} className="space-y-6">

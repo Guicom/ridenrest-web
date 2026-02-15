@@ -1,6 +1,6 @@
 # Ride'n'Rest
 
-Site vitrine **Ride'n'Rest** : planification d’itinéraires vélo et réservation de nuitées.
+Site vitrine **Ride'n'Rest** : planification d’itinéraires vélo et réservation de nuits.
 
 - **Stack :** Vite, React 19, TypeScript, Tailwind CSS
 - **Pages :** Accueil, Contact (formulaire Formspree), Mentions légales
