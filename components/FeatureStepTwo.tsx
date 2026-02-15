@@ -18,11 +18,11 @@ export const FeatureStepTwo: React.FC = () => {
             Sélectionne l'option qui te plaît, fais une réservation sur Booking en un clin d'œil et poursuis ta route l'esprit serein jusqu'à la destination.
             </p>
           </div>
-          <div className="flex justify-center md:justify-end items-center min-h-[60vh] sm:min-h-[320px] md:min-h-[450px] lg:min-h-[520px] w-full min-w-0">
+          <div className="flex justify-center md:justify-end items-center min-h-[50vh] sm:min-h-[320px] md:min-h-[450px] lg:min-h-[520px] w-full min-w-0">
             <img
               src="/images/step2.gif"
               alt="Interface Ride'n'Rest - visualisation des hébergements sur la trace"
-              className="max-w-full w-full md:w-auto md:max-w-[min(100%,640px)] h-auto max-h-[85vh] sm:max-h-[55vh] md:max-h-[70vh] lg:max-h-[80vh] rounded-xl sm:rounded-2xl sm:shadow-2xl sm:border sm:border-white/20 object-contain"
+              className="max-w-full w-full md:w-auto md:max-w-[min(100%,640px)] h-auto max-h-[70vh] sm:max-h-[55vh] md:max-h-[70vh] lg:max-h-[80vh] rounded-xl sm:rounded-2xl sm:shadow-2xl sm:border sm:border-white/20 object-contain"
             />
           </div>
         </div>
