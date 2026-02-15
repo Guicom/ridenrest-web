@@ -1,20 +1,41 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Ride'n'Rest
 
-# Run and deploy your AI Studio app
+Site vitrine **Ride'n'Rest** : planification d’itinéraires vélo et réservation de nuitées.
 
-This contains everything you need to run your app locally.
+- **Stack :** Vite, React 19, TypeScript, Tailwind CSS
+- **Pages :** Accueil, Contact (formulaire Formspree), Mentions légales
 
-View your app in AI Studio: https://ai.studio/apps/drive/16IFWFlbHUusTT4U56DsobsDbR8E8X6E6
+## Prérequis
 
-## Run Locally
+- Node.js (v18+ recommandé)
 
-**Prerequisites:**  Node.js
+## Installation et lancement
 
+```bash
+npm install
+npm run dev
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Ouvre [http://localhost:5173](http://localhost:5173) dans le navigateur.
+
+## Scripts
+
+| Commande        | Description              |
+|-----------------|--------------------------|
+| `npm run dev`   | Serveur de développement |
+| `npm run build` | Build de production      |
+| `npm run preview` | Aperçu du build       |
+
+## Structure
+
+- `App.tsx` — Point d’entrée et routage par `pathname` (/, /contact, /mentions-legales)
+- `components/` — Header, Hero, étapes, témoignages, Contact, Footer, Mentions légales
+- `public/images/` — Images et assets statiques
+
+## Déploiement
+
+Le build est généré dans `dist/`. Déployable sur Vercel, Netlify, GitHub Pages, etc.
+
+---
+
+Dépôt : [ridenrest-web](https://github.com/Guicom/ridenrest-web)
