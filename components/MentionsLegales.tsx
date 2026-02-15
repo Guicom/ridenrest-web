@@ -2,15 +2,15 @@ import React from 'react';
 
 export const MentionsLegales: React.FC = () => {
   return (
-    <article className="max-w-3xl mx-auto px-6 py-16 md:py-24">
-      <h1 className="text-4xl md:text-5xl font-light text-earth-dark uppercase tracking-tight mb-4">
+    <article className="max-w-3xl mx-auto px-4 sm:px-6 py-12 sm:py-16 md:py-24">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl font-light text-earth-dark uppercase tracking-tight mb-4">
         Mentions légales
       </h1>
       <p className="text-sage text-sm mb-12">
         Conformément aux dispositions des articles 6-III et 19 de la Loi n° 2004-575 du 21 juin 2004 pour la Confiance dans l'économie numérique, dite L.C.E.N., les présentes mentions légales s'appliquent au site Ride'n'Rest.
       </p>
 
-      <div className="space-y-12 text-earth-dark">
+      <div className="space-y-10 sm:space-y-12 text-earth-dark break-words">
         <section>
           <h2 className="text-xl font-semibold text-primary uppercase tracking-wider mb-4">
             1. Éditeur du site

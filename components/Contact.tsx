@@ -12,8 +12,8 @@ export const Contact: React.FC = () => {
 
   if (state.succeeded) {
     return (
-      <article className="max-w-2xl mx-auto px-6 py-16 md:py-24">
-        <h1 className="text-4xl md:text-5xl font-light text-earth-dark uppercase tracking-tight mb-4">
+      <article className="max-w-2xl mx-auto px-4 sm:px-6 py-12 sm:py-16 md:py-24">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-light text-earth-dark uppercase tracking-tight mb-4">
           Contact
         </h1>
         <p className="text-sage mb-12">
@@ -30,8 +30,8 @@ export const Contact: React.FC = () => {
   }
 
   return (
-    <article className="max-w-2xl mx-auto px-6 py-16 md:py-24">
-      <h1 className="text-4xl md:text-5xl font-light text-earth-dark uppercase tracking-tight mb-4">
+    <article className="max-w-2xl mx-auto px-4 sm:px-6 py-12 sm:py-16 md:py-24">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl font-light text-earth-dark uppercase tracking-tight mb-4">
         Contact
       </h1>
       <p className="text-sage mb-12">
