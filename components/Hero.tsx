@@ -15,10 +15,10 @@ export const Hero: React.FC = () => {
 
       <div className="relative z-20 w-full max-w-[min(1400px,92vw)] px-4 sm:px-6 md:px-10 text-center text-white mt-6 sm:mt-10">
         <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-light leading-[1.1] tracking-tight mb-6 sm:mb-8 uppercase [text-shadow:0_2px_8px_rgba(0,0,0,0.7),0_4px_20px_rgba(0,0,0,0.5)]">
-          Trouvez où dormir <br className="hidden md:block" /> le long de votre trace
+          Trouvez où dormir <br className="hidden md:block" /> le long de ta trace
         </h1>
         <p className="text-base sm:text-lg md:text-xl font-light mb-8 sm:mb-12 text-white max-w-3xl md:max-w-4xl lg:max-w-5xl mx-auto leading-relaxed px-2 sm:px-0 [text-shadow:0_1px_4px_rgba(0,0,0,0.8),0_2px_12px_rgba(0,0,0,0.6)]">
-          L'outil de navigation essentiel pour les cyclistes longue distance. Planifiez vos nuitées sans quitter votre itinéraire.
+          L'outil de navigation essentiel pour les cyclistes longue distance. Planifie tes nuits sans quitter ton itinéraire.
         </p>
       </div>
     </section>
